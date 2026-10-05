@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Registro de Vendas",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-vendas",
+      "program": "${workspaceFolder}/bin/Debug/net9.0/RegistroDeVendasTimeComercial",
+      "args": [],
+      "cwd": "${workspaceFolder}/RegistroDeVendasTimeComercial",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Lançar Movimentações de Estoque",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-estoque",
+      "program": "${workspaceFolder}/LancarMovimentacoesDeEstoque/bin/Debug/net9.0/LancarMovimentacoesDeEstoque.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/LancarMovimentacoesDeEstoque",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
+    }
+
+  ]
+}
